@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^(.*)index([\.html]*)$ /$1 [R=302,L] 
+ 
+DirectoryIndex index.php
+
+
+
